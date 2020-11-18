@@ -1,0 +1,104 @@
+/* Base Style */
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.headValChicken {
+    border: 1px solid black;
+    background-color: #d696ab;
+    overflow: none;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    padding: 1px 20px;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    font-size: 1em;
+}
+
+.headValBeef {
+    border: 1px solid black;
+    background-color: #d1242d;
+    color: white;
+    position: absolute;
+    top: 0;
+    padding: 1px 20px;
+    font-weight: bold;
+    right: 0;
+    font-size: 1em;
+}
+
+.headValSushi {
+    border: 1px solid black;
+    background-color: #a7bafa;
+    position: absolute;
+    top: 0;
+    padding: 1px 20px;
+    font-weight: bold;
+    right: 0;
+    font-size: 1em;
+}
+
+p {
+    font-size: .9em;
+    text-align: left;
+    overflow: hidden;
+    padding: 3% 2% 0 2%;
+    height: 75px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* Tablet view */
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        background-color: #a8a7a7;
+        margin: 1%;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        position: relative;
+        border: 2px solid black;
+        background-color: #a8a7a7;
+        margin: 1%;
+        font-size: 1em;
+    }
+    .col-md-6 {
+        width: 48%;
+    }
+    .col-md-12 {
+        width: 98%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        position: relative;
+        width: 31%;
+        border: 2px solid black;
+        background-color: #a8a7a7;
+        margin: 1%;
+        font-size: 1em;
+    }
+}
